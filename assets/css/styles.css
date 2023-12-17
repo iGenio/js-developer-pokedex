@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;800&display=swap');
+
+#ddd {
+    display: none;
+}
+
+#pokemonList {
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1rem;
+}
+
+header p {
+    padding-top: .5rem;
+    color: #141414;
+    font-size: 1rem;
+}
+
+p {
+    color: white;
+    font-size: .65rem;
+}
+
+h3 {
+    color: white;
+    font-size: 0.85rem;
+}
+
+h2 {
+    text-transform: capitalize;
+    color: white;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 173px;
+    height: 150px;
+    padding: 0.5em;
+    margin-top: 60px;
+    border-radius: 1.5rem;
+}
+
+button {
+    border: none;
+}
+
+button.card_container img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -60px;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -55px;
+}
+
+.type {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.75rem;
+    padding: 0.25em;
+    position: relative;
+    top: -40px;
+}
+
+
+.cards {
+    padding: 1rem 0;
+}
+
+.flexRowCenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    gap: 12px;
+}
+
+
+.container {
+    max-width: 1200px;
+}
+
+p.normal {
+    color: white;
+    background-color: #a6a877;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.grass {
+    color: white;
+    background-color: #77c850;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.fire {
+    color: white;
+    background-color: #ee7f30;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.water {
+    color: white;
+    background-color: #678fee;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.electric {
+    color: white;
+    background-color: #f7cf2e;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: pcapitalize;
+}
+
+p.ice {
+    color: white;
+    background-color: #98d5d7;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.ground {
+    color: white;
+    background-color: #dfbf69;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.flying {
+    color: white;
+    background-color: #a98ff0;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.poison {
+    color: white;
+    background-color: #a040a0;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.fighting {
+    color: white;
+    background-color: #bf3029;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.psychic {
+    color: white;
+    background-color: #f65687;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.dark {
+    color: white;
+    background-color: #725847;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.rock {
+    color: white;
+    background-color: #b8a137;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: pcapitalize;
+}
+
+p.bug {
+    color: white;
+    background-color: #a8b720;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.ghost {
+    color: white;
+    background-color: #6e5896;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.steel {
+    color: white;
+    background-color: #b9b7cf;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.dragon {
+    color: white;
+    background-color: #6f38f6;
+    padding: .5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p.fairy {
+    color: white;
+    background-color: #f9aec7;
+    padding: 0.5rem;
+    border-radius: 99px;
+    width: 60px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.normal {
+    background-color: #a6a877aa;
+}
+
+.grass {
+    background-color: #77c850aa;
+}
+
+.fire {
+    background-color: #ee7f30aa;
+}
+
+.water {
+    background-color: #678feeaa;
+}
+
+.electric {
+    background-color: #f7cf2eaa;
+}
+
+.ice {
+    background-color: #98d5d7aa;
+}
+
+.ground {
+    background-color: #dfbf69aa;
+}
+
+.flying {
+    background-color: #a98ff0aa;
+}
+
+.poison {
+    background-color: #a040a0aa;
+}
+
+.fighting {
+    background-color: #bf3029aa;
+}
+
+.psychic {
+    background-color: #f65687aa;
+}
+
+.dark {
+    background-color: #725847aa;
+}
+
+.rock {
+    background-color: #b8a137aa;
+}
+
+.bug {
+    background-color: #a8b720aa;
+}
+
+.ghost {
+    background-color: #6e5896aa;
+}
+
+.steel {
+    background-color: #b9b7cfaa;
+}
+
+.dragon {
+    background-color: #6f38f6aa;
+}
+
+.fairy {
+    background-color: #f9aec7aa;
+}
+
+
+button.primary {
+    background-color: #141414;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 80px;
+    margin: 40px auto;
+}

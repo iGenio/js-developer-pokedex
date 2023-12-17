@@ -1,0 +1,143 @@
+
+
+h1,h2,h3,p {
+    color: #141414;
+}
+
+button.onlyIcon {
+    background-color: transparent;
+    background-image: url(../icons/returne.svg);
+    width: 24px;
+    height: 24px;
+    color: none;
+}
+
+header {
+    margin-bottom: 180px;
+}
+
+header h1 {
+    color: white;
+    text-transform: capitalize;
+}
+
+header h3 {
+    color: white;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    align-items: center;
+}
+
+.type {
+    top: -120px;
+    justify-content: center;
+    gap: 2rem;
+}
+
+div.card img {
+    position: relative;
+    max-width: 220px;
+    height: 220px;
+    top: -140px;
+}
+
+h2{
+    position: relative;
+    top: -90px;
+}
+
+.attributes {
+    position: relative;
+    display: flex;
+    top: -90px;
+}
+
+.attribute {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    gap: 0.5rem;
+    justify-content: space-between;
+}
+
+
+div.icon {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 80px;
+    justify-content: center;
+}
+
+div.icon p {
+    font-size: 0.75rem;
+    font-weight: bold;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+div.icon img {
+    height: 24px;
+    width: 24px;
+    top: 0;
+}
+
+p.discription {
+    position: relative;
+    top: -100px;
+    padding: 24px;
+}
+
+div.stats {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -60px;
+    gap: 0.1rem;
+}
+
+
+div.stat {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+div.stats h3 {
+    width: 40px;
+    text-align: center;
+}
+
+div.stats p {
+    width: 20px;
+    text-align: center;
+}
+
+.bar_stats {
+    width: 200px;
+    background-color: #dbdbdb;
+    height: 8px;
+    border-radius: 8px;
+}
+
+div.bar_stats div {
+    height: 8px;
+    border-radius: 8px;
+}
+
+
+#ddd {
+    display: block;
+}
+
+#pokemonList {
+    display: none;
+}
