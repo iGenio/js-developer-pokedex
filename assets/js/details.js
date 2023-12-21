@@ -30,7 +30,7 @@ function convertPokemonToHtmlDetail(pokemon) {
     <div class="attributes">
         <div class="attribute">
             <div class="icon">
-                <img src="/assets/icons/weight.svg" alt="">
+                <img src="assets/icons/weight.svg" alt="">
                 <p>${pokemon.weight} kg</p>
             </div>
             <p>Weigth</p>
@@ -38,7 +38,7 @@ function convertPokemonToHtmlDetail(pokemon) {
 
         <div class="attribute">
             <div class="icon">
-                <img src="/assets/icons/straighten.svg" alt="">
+                <img src="assets/icons/straighten.svg" alt="">
                 <p>${pokemon.height}</p>
             </div>
             <p>Height</p>
